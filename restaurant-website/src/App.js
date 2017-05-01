@@ -8,20 +8,20 @@ import "./App.css";
 const menuItems = [
   {
     name: "That's a Rack!",
-    description: 'text here',
-    price: '$19.95'
+    description: "text here",
+    price: "$19.95"
   },
   {
-    name: 'Rack Jr.',
-    description: 'text here',
-    price: '$12.95'
+    name: "Rack Jr.",
+    description: "text here",
+    price: "$12.95"
   },
   {
-    name: 'Pulled Pork',
-    description: 'text here',
-    price: '$10.95'
+    name: "Pulled Pork",
+    description: "text here",
+    price: "$10.95"
   }
-]
+];
 
 class App extends Component {
   render() {
@@ -29,7 +29,7 @@ class App extends Component {
       <div className="App">
         <Jumbotron />
         <Navbar />
-        <Menu menuItems={ menuItems } />
+        <Menu menuItems={menuItems} />
         <Reservation />
       </div>
     );

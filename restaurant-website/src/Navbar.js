@@ -1,25 +1,14 @@
 import React from "react";
 
-
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-default navbar-static-top">
-      <div className="container">
-        <ul className="navbar-nav">
-          <li className="nav-item">Menu</li>
-          <li className="nav-item">Reservations</li>
-        </ul>
-      </div>
-    </nav>
+    <ul className="list-inline" id="navbar-custom">
+      <li><a href="#"><h4 className="navbar-custom-links">Menu</h4></a></li>
+      <li>
+        <a href="#"><h4 className="navbar-custom-links">Reservations</h4></a>
+      </li>
+    </ul>
   );
 };
 
-
-
-
-
-
-
 export default Navbar;
-
-
