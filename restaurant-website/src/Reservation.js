@@ -4,6 +4,7 @@ const Reservation = () => {
   return (
     <div className="container">
       <div className="col-sm-6 col-sm-offset-1 text-left">
+        <h2 id="reservations">Reservations</h2>
         <p>
           Book online or give us a call on 020 3375 1515 between 9.30am–6pm on weekdays, and between 12pm–5pm on weekends.
         </p>
@@ -44,11 +45,12 @@ const Reservation = () => {
             />
           </div>
           <div className="input-group text-left">
-            <label>Reservation Time</label>
+            <label>People</label>
             <input
               type="number"
               className="form-control"
               aria-describedby="basic-addon1"
+              min="1"
             />
           </div>
 

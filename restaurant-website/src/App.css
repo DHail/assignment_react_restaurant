@@ -29,13 +29,27 @@
 
 .navbar-custom-links {
   text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-custom-links {
+  color: #000;
+}
+
+.navbar-custom-links:hover {
+  font-weight: 900;
+  text-decoration: none;
 }
 
 .jumbotron{
-  text-color: #fff;
   background-position-y: 25%;
   overflow: hidden;
+  height: 400px;
   width: 100%;
   background: url("http://cdn.thedailybeast.com/content/dailybeast/galleries/2012/07/05/justin-bieber-beyonce-more-celebrities-eating-hot-dogs-photos/jcr:content/gallery/slide_0/image.img.1280.1024.jpg/44715191.cached.jpg");
   background-size: cover;
+}
+
+.jumbotron.innerContainer {
+    padding-top: 250px;
 }
